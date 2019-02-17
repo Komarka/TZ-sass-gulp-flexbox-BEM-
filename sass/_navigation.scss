@@ -1,0 +1,23 @@
+.navigation {
+    font-size: .8rem;
+    line-height: 12px;
+    color: #ffff;
+    border-radius: 10px;
+    padding: 1% 6%;
+    background-color: #ffffff;
+    background-image: linear-gradient(to top, #2b2b2b 0%, #333333 50%, #333333 100%);
+    display: flex;
+    justify-content: space-between;
+
+    &-el {
+        cursor: pointer;
+
+        &:hover {
+            color: #ba2e1f;
+
+        }
+    }
+
+}
+
+;
